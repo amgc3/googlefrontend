@@ -8,20 +8,24 @@ label {
   display: inline-block;
 }
 
-section header {
+header nav {
   display: flex;
   justify-content: flex-end;
   width: 100%;
 }
-section header ul {
+header nav ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
-section header li {
+header nav li {
 list-style: none;
 margin-left: 15px;
+}
+
+a {
+  text-decoration: none;
 }
 
 
@@ -39,10 +43,39 @@ margin-left: 15px;
 
 } */
 
-input[type="text"] {
+.text_input {
+  border: 1px solid #d9d9d9;
   margin-top: 10px;
+  padding: 3px;
+ 
 
 }
+
+.search_keyword {
+  border-radius: 20px;
+  height: 36px;
+  font-size: 16px;
+  padding-left: 50px;
+
+}
+
+/* input[type="text"] {
+  margin-top: 10px;
+
+} */
 .logo {
   text-align: center;
+}
+
+.advanced_button {
+  background: #4d90fe;
+  border-radius: 2px;
+  border: 1px solid #3079ed;
+  color: #fff;
+  margin: 10px;
+  font-size: 11px;
+  height: 30px;
+  min-width: 120px;
+  font-weight: bold;
+
 }

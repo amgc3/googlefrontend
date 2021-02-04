@@ -3,44 +3,27 @@
 <head>
   <title>Advanced Search</title>
   <link rel="stylesheet" href="styles.css">
-  <style>
-  
-  input[type="submit"] {
-    background: #4d90fe;
-    border-radius: 2px;
-    border: 1px solid #3079ed;
-    color: #fff;
-    margin: 10px;
-    font-size: 11px;
-    height: 30px;
-    min-width: 120px;
-    font-weight: bold;
-
-  }
-
-  </style>
-
 </head>
 <body>
   <form method="get" action="https://google.com/search">
 <div>
     <label class="word_search" for="all"> all these words:</label>
-    <input type="text" id="all" name="as_q" size="60">
+    <input class="text_input" type="text" id="all" name="as_q" size="60">
   </div>
 <div>
   <label class="word_search" for="one" for="this_exact_word_or_phrase"> this exact word or phrase:</label>
-  <input type="text" id="one" name="as_epq" size="60">
+  <input class="text_input" type="text" id="one" name="as_epq" size="60">
 </div>
 <div>
   <label class="word_search" for="any"> any of these words:</label>
-  <input type="text" id="any" name="as_oq" size="60">
+  <input class="text_input" type="text" id="any" name="as_oq" size="60">
 </div>
 <div>
   <label class="word_search" for="none"> none of these words:</label>
-  <input type="text" id="none" name="as_eq" size="60">
+  <input class="text_input" type="text" id="none" name="as_eq" size="60">
 </div>
 
-    <input type="submit" value="Advanced Search">
+    <input class="advanced_button" type="submit" value="Advanced Search">
 
   </form>
 </body>
