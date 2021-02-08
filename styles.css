@@ -28,7 +28,10 @@ a {
   text-decoration: none;
 }
 
-
+.container {
+  display: flex;
+  flex-direction: column;
+}
 
 /* input[type="submit"] {
   background: #4d90fe;
@@ -72,10 +75,12 @@ a {
   border-radius: 2px;
   border: 1px solid #3079ed;
   color: #fff;
-  margin: 10px;
+  margin-top: 10px;
+  margin-left:515px;
   font-size: 11px;
   height: 30px;
-  min-width: 120px;
+  width: 120px;
   font-weight: bold;
+  justify-content: flex-end;
 
 }
